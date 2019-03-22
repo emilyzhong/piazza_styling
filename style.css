@@ -29,6 +29,7 @@ pre.prettyprint {
 
 .page_feed li:hover, .dropdown-menu li:hover, #my_classes li:hover {
 	background: #f6f7f6 !important;
+	cursor: pointer;
 }
 
 .dropdown-menu li:hover, .dropdown-menu li:hover * {
@@ -50,6 +51,17 @@ pre.prettyprint {
 
 .post_region_box .discussion_replies {
 	padding: 12px !important;
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.post_region_box .account_image_container {
+	align-self: flex-start;
+}
+
+.discussion_replies .discussion_content {
+	margin-left: 6px !important;
 }
 
 #popular_tags_bar,
