@@ -1,12 +1,13 @@
 {
   "manifest_version": 2,
  
-  "name": "Piazza Stylin'",
-  "version": "0.1.0",
-  "description": "Applies styling to Piazza to make it pretty",
+  "name": "Piazza, But Prettier",
+  "version": "0.0.3",
+  "description": "Applies styling to Piazza to make it slightly prettier. Love me some whitespace amiright.",
  
   "content_scripts": [{
     "css": ["style.css"],
+    "js": ["script.js"],
     "matches": ["https://piazza.com/class/*"]
   }]
  

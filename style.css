@@ -40,7 +40,8 @@ pre.prettyprint {
 	color: #3e7aab !important;
 }
 
-.page_feed .page_feed_tool_bar .hide_show_feed.hide_feed {
+.hide_show_feed {
+	background: none !important;
 	border: none !important;
 	margin: 0 !important;
 }
@@ -54,6 +55,13 @@ pre.prettyprint {
 	display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+}
+
+.dropdown.followup_region_arrow_dropdown.reply {
+	position: absolute;
+	top: 0 !important;
+	right: 0 !important;
 }
 
 .post_region_box .account_image_container {
@@ -171,7 +179,7 @@ li.feed_item {
 	margin-top: 10px !important;
 }
 
-.selected {
+li.feed_item.selected {
 	background: #eaeff4 !important;
 }
 
@@ -181,7 +189,7 @@ li.feed_item {
 
 #page_center,
 #page_bottom_bar {
-	left: 380px !important;
+	left: 380px;
 }
 
 .post_region_actions {
@@ -286,6 +294,8 @@ li.feed_item {
 
 .special_mentions_visibility.hide {
 	bottom: 8px !important;
+	position: absolute;
+	z-index: 11;
 }
 
 #special_mentions {
