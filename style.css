@@ -52,10 +52,13 @@ pre.prettyprint {
 
 .post_region_box .discussion_replies {
 	padding: 12px !important;
-	display: flex;
     justify-content: flex-start;
     align-items: center;
     position: relative;
+}
+
+.post_region_box .discussion_replies.edit_mode .discussion_content.edit_mode {
+	margin-left: 42px !important;
 }
 
 .dropdown.followup_region_arrow_dropdown.reply {
