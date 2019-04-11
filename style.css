@@ -113,7 +113,7 @@ pre.prettyprint {
 }
 
 #feed {
-	width: 380px !important;
+	/*width: 380px !important;*/
 	border: none !important;
 }
 
@@ -192,7 +192,7 @@ li.feed_item.selected {
 
 #page_center,
 #page_bottom_bar {
-	left: 380px;
+	/*left: 380px;*/
 }
 
 .post_region_actions {
